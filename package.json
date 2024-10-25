@@ -2,7 +2,7 @@
   "name": "vite_tlway",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://natkai2040.github.io/tlway/",
+  "homepage": "https://github.com/ghostrain26/timelineEditor",
   "type": "module",
   "scripts": {
     "dev": "vite",
