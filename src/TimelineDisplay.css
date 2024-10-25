@@ -1,0 +1,234 @@
+.rct-sidebar-row .red,
+.react-calendar-timeline .rct-horizontal-lines {
+    border: 0px
+}
+.rct-sidebar-row .red,
+.react-calendar-timeline .rct-horizontal-lines .red {
+    background: linear-gradient(
+        180deg, rgba(0,0,0,0) 45%,
+        #eb2f29 calc(45%),
+        #eb2f29 calc(55%),
+        rgba(0,0,0,0) 55%
+    );
+    border: 0px
+}
+.rct-sidebar-row .orange,
+.react-calendar-timeline .rct-horizontal-lines .orange {
+    background: linear-gradient(
+        180deg, rgba(0,0,0,0) 45%,
+        #f69548 calc(45%),
+        #f69548 calc(55%),
+        rgba(0,0,0,0) 55%
+    );
+    border: 0px;
+}
+.rct-sidebar-row .yellow,
+.react-calendar-timeline .rct-horizontal-lines .yellow {
+    background: linear-gradient(
+        180deg, rgba(0,0,0,0) 45%,
+        #fecb18 calc(45%),
+        #fecb18 calc(55%),
+        rgba(0,0,0,0) 55%
+    );
+    border: 0px
+}
+.rct-sidebar-row .lightgreen,
+.react-calendar-timeline .rct-horizontal-lines .lightgreen {
+    background: linear-gradient(
+        180deg, rgba(0,0,0,0) 45%,
+        #7ac142 calc(45%),
+        #7ac142 calc(55%),
+        rgba(0,0,0,0) 55%
+    );
+    border: 0px
+}
+.rct-sidebar-row .darkgreen,
+.react-calendar-timeline .rct-horizontal-lines .darkgreen {
+    background: linear-gradient(
+        180deg, rgba(0,0,0,0) 45%,
+        #2bb6e6 calc(45%),
+        #2bb6e6 calc(55%),
+        rgba(0,0,0,0) 55%
+    );
+    border: 0px
+}
+.rct-sidebar-row .lightblue,
+.react-calendar-timeline .rct-horizontal-lines .lightblue {
+    background: linear-gradient(
+        180deg, rgba(0,0,0,0) 45%,
+        #00a34d calc(45%),
+        #00a34d calc(55%),
+        rgba(0,0,0,0) 55%
+    );
+    border: 0px
+}
+.rct-sidebar-row .darkblue,
+.react-calendar-timeline .rct-horizontal-lines .darkblue{
+    background: linear-gradient(
+        180deg, rgba(0,0,0,0) 45%,
+        #015396 calc(45%),
+        #015396 calc(55%),
+        rgba(0,0,0,0) 55%
+    );
+    border: 0px
+}
+.rct-sidebar-row .purple,
+.react-calendar-timeline .rct-horizontal-lines .purple {
+    background: linear-gradient(
+        180deg, rgba(0,0,0,0) 45%,
+        #914499 calc(45%),
+        #914499 calc(55%),
+        rgba(0,0,0,0) 55%
+    );
+    border: 0px
+}
+.rct-sidebar-row .pink,
+.react-calendar-timeline .rct-horizontal-lines .pink {
+    background: linear-gradient(
+        180deg, rgba(0,0,0,0) 45%,
+        #db74ae calc(45%),
+        #db74ae calc(55%),
+        rgba(0,0,0,0) 55%
+    );
+    border: 0px
+}
+.rct-sidebar-row .brown,
+.react-calendar-timeline .rct-horizontal-lines .brown {
+    background: linear-gradient(
+        180deg, rgba(0,0,0,0) 45%,
+        #a15c2f calc(45%),
+        #a15c2f calc(55%),
+        rgba(0,0,0,0) 55%
+    );
+    border: 0px
+}
+.rct-sidebar-row .grey,
+.react-calendar-timeline .rct-horizontal-lines .grey {
+    background: linear-gradient(
+        180deg, rgba(0,0,0,0) 45%,
+        #7c878e calc(45%),
+        #7c878e calc(55%),
+        rgba(0,0,0,0) 55%
+    );
+    border: 0px
+}
+.rct-sidebar-row .gold,
+.react-calendar-timeline .rct-horizontal-lines .gold {
+    background: linear-gradient(
+        180deg, rgba(0,0,0,0) 45%,
+        #978e2e calc(45%),
+        #978e2e calc(55%),
+        rgba(0,0,0,0) 55%
+    );
+    border: 0px
+}
+
+.rct-sidebar-row .blank,
+.react-calendar-timeline .rct-horizontal-lines .blank {
+    border-bottom: 0px solid #bbb;
+}
+.rct-sidebar-row.rct-sidebar-row-odd {
+    border: yellow;
+}
+
+.rct-dateHeader {
+    color: black
+}
+
+.react-calendar-timeline .rct-header-root {
+    background: grey;
+}
+
+
+.rct-item-content{
+    background: #000000AA;
+    position: absolute;
+    margin-left: 2em;
+}
+
+/* get rid of the left padding so that the 
+ * custom rendered group takes up the entire width 
+ * of the sidebar
+ */
+.react-calendar-timeline .rct-sidebar .rct-sidebar-row {
+  padding-left: 0;
+}
+
+.event_point_marker {
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    left: -.75em; /* TODO: Currently a hard-coded Solution to putting the marker at the beginning of the event */
+}
+
+.event_point_marker_background {
+    height: 70%;
+    position: absolute; 
+    z-index: -1;
+    left: -.75em; /* TODO: Currently a hard-coded Solution to putting the marker at the beginning of the event */
+}
+
+/* 
+.description_box { 
+    width: auto;
+    display:flex;
+    padding: 0em .5em;
+    border-radius: 1em;
+    position: absolute;
+    z-index: 9999;
+    background: #FFFFFFBB;
+
+    color: #000000;
+    align-items: start;
+} */
+
+.arc-options-button { 
+    color: "white"
+}
+
+.group_box{
+    display: flex; 
+    flex: 1; 
+    align-items: center;
+    flex-direction: row;
+}
+
+.add_arc_button{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.refresh_tags_button {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text_icon_left{
+    margin: 0em .2em 0em 0em;
+}
+/* 
+.event_card {
+    z-index: 91;
+    position: relative;
+} */
+
+.tag_box {
+    color: black; 
+    padding: 0em .5em;
+    margin: .25em;
+    border-radius: .5em;
+    background: white;
+}
+
+.tag_list {
+    height: 10em;
+    background: #ffffff44;
+    overflow: auto;
+    border: solid #1a1a1a;
+    border-radius: .5em;
+}
+
